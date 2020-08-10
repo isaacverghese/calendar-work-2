@@ -1,0 +1,100 @@
+/*calendar divs*/
+.season-calendar-table {
+  flex: 100;
+}
+
+/*.season-calendar-table td {
+  border: solid 1px #d2d2d2;
+}*/
+
+.month-header {
+  /*width: 240px;
+  height: 20px;*/
+  object-fit: contain;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #f0f0f0;
+}
+
+.month-table {
+  width: 240px;
+  height: 165px;
+  border: solid 1px #d2d2d2;
+}
+
+.week-header-WK {
+  width: 26px;
+  height: 12px;
+  object-fit: contain;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #f0f0f0;
+}
+
+.week-header-days {
+  width: 26px;
+  height: 10px;
+  object-fit: contain;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #f0f0f0;
+}
+
+/*small divs*/
+.year-button {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  flex: 1;
+}
+
+.year-button:hover {
+  cursor: pointer;
+}
+
+.dateUnselected {
+  opacity: 0.5;
+  background-color: #000000;
+}
+
+.dateSelected {
+  /*opacity: 0.5;
+  background-color: rgba(178, 209, 224, 0.5);*/
+}
+
+.dayCell:hover {
+  background-color: rgba(178, 209, 224, 0.5);
+  cursor: pointer;
+}
+/* main box*/
+.season-calendar-container {
+  display: flex;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}

@@ -1,2 +1,2 @@
-# calendar-work-2
+# calendar-work
 Created with CodeSandbox
